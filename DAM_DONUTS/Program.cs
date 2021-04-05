@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DAM_CUPCAKES
+namespace DAM_DONUTS
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace DAM_CUPCAKES
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new FrmMain());
         }
     }
 }
